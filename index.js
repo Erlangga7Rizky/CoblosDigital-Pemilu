@@ -42,7 +42,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
         showSuccessNotification("Login berhasil! Anda akan diarahkan ke halaman beranda.");
 
         setTimeout(function() {
-            window.location.href = "index.html";
+            window.location.href = "Halaman_Beranda.html";
         }, 2000);
     }
 });
